@@ -1,10 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-	<LangVersion>latest</LangVersion>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>latest</LangVersion>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<GenerateDocumentationFileOnBuild>True</GenerateDocumentationFileOnBuild>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>CThompson92.Monads</PackageId>
+		<DefaultNamespace>CThompson92.Monads</DefaultNamespace>
+		<AssemblyName>CThompson92.Monads</AssemblyName>
+		<Authors>Chris Thompson</Authors>
+		<Company></Company>
+		<Description></Description>
+		<VersionPrefix>1.0.0</VersionPrefix>
+		<VersionSuffix></VersionSuffix>
+		<PackageReleaseNotes></PackageReleaseNotes>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	</PropertyGroup>
 
 </Project>

@@ -104,7 +104,6 @@ public class R<TRight>
 	/// A common form of <see cref="R{TLeft,TRight}"/> which uses
 	/// a collection of key-value pairs as the left (error) type.
 	/// </summary>
-	/// <typeparam name="TRight">The type of value contained.</typeparam>
 	/// <param name="value"></param>
 	public R(TRight value) : base(value) { }
 }

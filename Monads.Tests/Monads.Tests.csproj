@@ -7,6 +7,10 @@
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
+  <PropertyGroup>
+	  <DefaultNamespace>CThompson92.Monads.Tests</DefaultNamespace>
+	  <AssemblyName>CThompson92.Monads.Tests</AssemblyName>
+  </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="FluentAssertions" Version="6.7.0" />
